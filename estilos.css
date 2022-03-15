@@ -1,0 +1,309 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.middle-c1{
+    display: flex;
+    width: 50%;
+    height: 1200px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.c1-color{
+    
+    background: url("./img/fondo-triangulos.PNG");
+    background-size: cover;
+}
+
+.c2-color{
+    background: url("./img/woman-blue-1.png");
+    background-size: cover;
+}
+
+.container2{
+    height: 500px;
+    background-color: darkgreen;
+}
+
+a{
+    text-decoration: none;
+    color: lightslategray;
+}
+
+header{
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo-pagina{
+    position: relative;
+    margin-left: 100px;
+    color: royalblue;
+    font-weight: bold;
+}
+
+nav a{
+    font-weight: 700;
+    padding-right: 80px;
+}
+
+button{
+    border:3px solid rgba(100, 100, 100, 0.1);
+    border-radius: 3px;
+    margin-right: 100px;
+    color: white;
+    font-weight: 600;
+    background-color: royalblue;
+    width: 150px;
+    height: 50px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  }
+*/
+
+.commun-objective{
+    position: relative;
+    top: 100px;
+    width: 600px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.commun-objective h1{
+    text-align: left;
+    font-size: 80px;
+    color: midnightblue;
+}
+
+div p{
+    text-align: left;
+    font-size: 28px;
+    color: lightslategray;
+}
+
+.tercerElemC1{
+    position: relative;
+    top: 50px;
+    height: 100px;
+}
+
+.tercerElemC1-order{
+    display: flex;
+    align-items: center;
+}
+
+.cuartoElemC1{
+    position: absolute;
+    top: 880px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: -5px 15px 8px -3px rgba(176, 208, 248, 0.3);
+    opacity: 0.9;
+}
+
+div.orderIconos img{
+    width: 70px;
+    height: 60px;
+}
+
+.orden{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    color: lightslategray;
+}
+
+.orderIconos{
+    display: flex;
+    align-items: center;
+}
+
+div.orderIconos div{
+    padding-left: 10px;
+}
+
+.tipoLetraColor{
+    font-size: large;
+    color: midnightblue;
+}
+
+.posicionClock{
+    position: absolute;
+    top: 830px;
+}
+
+.orderClock{
+    display: flex;
+    align-items: center;
+}
+
+.clockProperties{
+    width: 50px;
+    height: 50px;
+}
+
+.imagenMarcas{
+    height: 1200px;
+    background: url("./img/marcas-vacunas.png");
+    background-size: cover;
+}
+
+.posicion-marco2{
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 330px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.posicion-marco2 h1{
+    text-align: left;
+    font-size: 55px;
+    color: midnightblue;
+}
+
+div.posicion-marco2 p{
+    width: 800px;
+}
+
+.beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px;
+    padding-top: 650px;
+}
+
+.cuadrosBeneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    height: 400px;
+    background-color: white;
+    border:4px solid rgba(100, 100, 100, 0.050);
+    border-radius: 15px;
+}
+
+div.cuadrosBeneficios img{
+    width: 100px;
+    height: 90px;
+}
+
+div.cuadrosBeneficios h3{
+    padding:30px;
+    width: 270px;
+    height: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+div.cuadrosBeneficios p{
+    padding:30px;
+    padding-top: 0;
+    width: 270px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.middle-cab{
+    position: relative;
+    width: 45%;
+    height: 1200px;
+}
+
+.middle-cab-1{
+    position: relative;
+    width: 55%;
+    height: 1200px;
+}
+
+.c3-color{
+    background: url("./img/woman-blue-white.png");
+    background-size: cover;
+}
+
+.commun-objective-c1{
+    position: relative;
+    top: 180px;
+    width: 700px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 100px;
+}
+
+div.commun-objective-c1 h1{
+    text-align: left;
+    width: 700px;
+    font-size: 55px;
+    color: midnightblue;
+}
+
+div.commun-objective-c1 p{
+    text-align: left;
+    width: 700px;
+    font-size: 28px;
+    color: lightslategray;
+}
+
+.tercerElemC2{
+    position: relative;
+    top: 50px;
+    width: 700px;
+    height: 100px;
+}
+
+.tercerElemC2-order{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tipoLetraColor-1{
+    font-size: 35px;
+    color: midnightblue;
+}
+
+.orderIconos-1{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+div.orderIconos-1 p{
+    width: 500px;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background: url("./img/footer.png");
+    background-size: cover;
+}
